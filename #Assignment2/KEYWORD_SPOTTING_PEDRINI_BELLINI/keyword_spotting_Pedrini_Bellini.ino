@@ -40,11 +40,11 @@
 // CMSIS-DSP
 #include <arm_math.h>
 
-// TensorFlow Lite Micro
-#include "TensorFlowLite.h"
-#include "tensorflow/lite/micro/all_ops_resolver.h"
-#include "tensorflow/lite/micro/micro_interpreter.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+// TensorFlow Lite Micro  (Harvard_TinyMLx library)
+#include <TensorFlowLite.h>
+#include <tensorflow/lite/micro/all_ops_resolver.h>
+#include <tensorflow/lite/micro/micro_interpreter.h>
+#include <tensorflow/lite/schema/schema_generated.h>
 
 // Weights of the Colab model
 #include "model.h"   // defines: const unsigned char model_data[];
